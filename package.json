@@ -1,6 +1,6 @@
 {
   "name": "del-values",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Multiple delete deeply nested **values** from an object using dot notation `a.b.c`",
   "repository": "tunnckoCore/del-values",
   "author": "Charlike Mike Reagent <@tunnckoCore> (http://www.tunnckocore.tk)",
