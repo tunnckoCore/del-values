@@ -7,10 +7,13 @@
 
 'use strict'
 
+var isObject = require('isobject')
 var del = require('del-value')
 
 module.exports = function delValues (obj, keys, esc) {
-  obj = obj || {}
+  if (!isObject(obj)) {
+    return {}
+  }
   keys = Array.isArray(keys) ? keys : [keys]
 
   var len = keys.length

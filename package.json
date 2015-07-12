@@ -10,7 +10,8 @@
     "test": "standard && node test.js"
   },
   "dependencies": {
-    "del-value": "~1.0.0"
+    "del-value": "~1.0.0",
+    "isobject": "~1.0.1"
   },
   "devDependencies": {
     "assertit": "^0.1.0"
