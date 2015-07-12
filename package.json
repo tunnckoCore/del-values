@@ -15,5 +15,23 @@
   "devDependencies": {
     "assertit": "^0.1.0"
   },
-  "keywords": []
+  "keywords": [
+    "check",
+    "deep",
+    "deeply",
+    "del",
+    "delete",
+    "dot",
+    "get",
+    "has",
+    "mutiple",
+    "notation",
+    "object",
+    "path",
+    "set",
+    "update",
+    "valdidate",
+    "value",
+    "values"
+  ]
 }
