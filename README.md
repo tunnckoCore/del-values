@@ -24,8 +24,21 @@ del({a: 'b', c: 'd'}, ['a', 'c']) //=> {}
 ```
 
 
-## Contributing
+## Related
+- [assign-value](https://github.com/jonschlinkert/assign-value): Extend a value or deeply nested property of an object using object path notation.
+- [del-value](https://github.com/tunnckocore/del-value): Delete deeply nested value from an object using dot notation like `a.b.c.x` and return the modified object if success, otherwise return original object.
+- [get-value](https://github.com/jonschlinkert/get-value): Use property paths (`a.b.c`) to get a nested value from an object.
+- [has-value](https://github.com/jonschlinkert/has-value): Returns true if a value exists, false if empty. Works with deeply nested values using object paths.
+- [has-own-deep](https://github.com/jonschlinkert/has-own-deep): Returns true if an object has an own, nested property using dot notation paths ('a.b.c').
+- [object.omit](https://github.com/jonschlinkert/object.omit): Return a copy of an object without the given key, or array of keys.
+- [omit-value](https://github.com/jonschlinkert/omit-value): Omit properties from an object or deeply nested property of an object using object path notation.
+- [put-value](https://github.com/tunnckocore/put-value): Update only existing values from an object, works with dot notation paths like `a.b.c` and support deep nesting.
+- [set-value](https://github.com/jonschlinkert/set-value): Create nested values and any intermediaries using dot notation (`'a.b.c'`) paths.
+- [store-cache](https://github.com/tunnckocore/store-cache): Simple and flexible API for in-memory object cache store that have set, get, put, del, has and store methods. Inspired by `option-cache`, `data-store`, `map-cache` and more.
+- [upsert-value](https://github.com/doowb/upsert-value): Update or set nested values and any intermediaries with dot notation (`'a.b.c'`) paths.
 
+
+## Contributing
 Pull requests and stars are always welcome. For bugs and feature requests, [please create an issue](https://github.com/tunnckoCore/del-values/issues/new).  
 But before doing anything, please read the [CONTRIBUTING.md](./CONTRIBUTING.md) guidelines.
 
