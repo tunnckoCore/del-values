@@ -13,6 +13,10 @@ var test = require('assertit')
 var del = require('./index')
 
 test('del-values:', function () {
+  test('should return empty object of not object given', function (done) {
+    test.deepEqual(del(1234, 'a'), {})
+    done()
+  })
   test('should works like `del-value` with single property path', function (done) {
     var actual = {a: 'b', c: {d: 'e', g: 'f'}}
     var expected = {c: {d: 'e', g: 'f'}}
