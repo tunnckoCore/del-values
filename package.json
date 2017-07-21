@@ -14,7 +14,7 @@
     "isobject": "~1.0.1"
   },
   "devDependencies": {
-    "assertit": "^0.1.0"
+    "assertit": "0.1.0"
   },
   "keywords": [
     "check",
